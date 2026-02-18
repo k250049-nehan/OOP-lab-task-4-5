@@ -22,7 +22,7 @@ int main() {
 
     cout << "\nBook Details:\n";
     for(int i = 0; i < 5; i++) {
-        cout << "Book " << i + 1 << ":\n";
+        cout << "Book " << i + 1 << ":" << endl;
         cout << "Title: " << books[i].title << endl;
         cout << "Price: " << books[i].price << endl;
         cout << endl;
